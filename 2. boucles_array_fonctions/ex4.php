@@ -1,4 +1,5 @@
 <?php
+// $tab = ["nom" => "45", "age" => "hell", "car" => "Tesla"];
 
 $val = [20, 50, 7 , 54];
 

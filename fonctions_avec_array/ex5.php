@@ -3,20 +3,16 @@
 
 function affichage_tab_html(array $tab): void {
     echo "<table>";
-    for ($i=0; $i > count($tab); $i++){ 
+    foreach ($tab as $key => $value){
         echo "<tr>";
-            for ($i=0; $i > count($tab); $i++){
-                echo "<td>" .$i. "</td>";
-                echo "<td>" .$tab[$i]. "</td>";
-            }
+            echo "<td>" .$key. "</td>";
+            echo "<td>" .$value. "</td>";
         echo "</tr>";
     }
     echo "</table>";
-
 }
 
 $tableau = ["nom" => "Doe", "prenom" => "Jane", "birth" => "02/05/1993", "city" => "Brussels"];
-echo count($tableau);
 
 affichage_tab_html($tableau)
 ?>
