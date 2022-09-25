@@ -11,7 +11,7 @@ function read($message = NULL)
 }
 
 $age = read("Quel est votre age: \n");
-var_dump ($age); // fonction qui permet de debugger en verifier le type de la variable
+var_dump ($age); // fonction qui permet de debugger en verifiant le type de la variable
 while ($age <= 0 OR $age > 130){
     $age = read("Quel est votre age - Tapez une valeur correcte: \n");
 }

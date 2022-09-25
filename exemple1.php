@@ -50,7 +50,7 @@ if ($val) {
 $nom = "Pauline";
 print("\nLe nom est " . $nom . ". Elle a " . $age . " ans.\n");
 print('Le nom est ' . $nom  . "\n"); // le guillement simple ne prend pas le \n
-print("Le nom est $nom\n"); // ici on est pas oblige de concatene
+print("Le nom est $nom\n"); // ici on est pas obligé de concatener
 print('Le nom est $nom');
 print("\nLe surnom est 'Le fantastique'");
 
