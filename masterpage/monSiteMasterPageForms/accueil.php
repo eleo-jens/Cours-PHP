@@ -1,0 +1,1 @@
+<h1>Bienvenue chez les WAD!</h1>
